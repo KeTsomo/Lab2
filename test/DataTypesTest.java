@@ -24,6 +24,7 @@ public class DataTypesTest {
         for (int i = 1; i <= 1_000_000; i++) {
             lst.add(i);
         }
+
         assertEquals("sum form 1 to 1 million should be " + x, x, DataTypes.sum(lst));
     }
 }
